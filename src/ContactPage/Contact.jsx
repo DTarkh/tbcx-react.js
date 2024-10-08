@@ -1,12 +1,12 @@
-import Navbar from "../Navigation/Navbar"
-
+import Navbar from "../Navigation/Navbar";
 
 const Contact = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
+      
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
