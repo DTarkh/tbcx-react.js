@@ -1,10 +1,10 @@
-import { Children } from 'react'
+
 import './Main.css'
 
-export const Main = () => {
+export const Main = (props) => {
   return (
     <div className='main-container'>
-        {Children}
+        {props.children}
     </div>
   )
 }
