@@ -1,0 +1,18 @@
+/* AssignPage3.css */
+
+.table {
+  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-header-row {
+  background-color: dodgerblue;
+}
+
+.table-cell {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+}

@@ -5,14 +5,13 @@
   display: flex;
   align-items: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  justify-content: end;
+  justify-content: center
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  gap: 20px;
-  padding-right: 10vw;
+  gap: 100px;
 }
 
 .nav-link {

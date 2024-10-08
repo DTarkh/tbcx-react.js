@@ -1,0 +1,27 @@
+.input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.btn{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    width: 90px;
+    background-color: rgb(152, 101, 199);
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(104, 70, 179);
+    transition: background-color 0.3s ease-in-out;
+}
