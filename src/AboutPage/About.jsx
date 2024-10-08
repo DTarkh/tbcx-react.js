@@ -1,3 +1,4 @@
+import { Main } from "../Main/Main"
 import Navbar from "../Navigation/Navbar"
 
 const About = () => {
@@ -5,6 +6,9 @@ const About = () => {
     <div>
 
         <Navbar />
+        <Main>
+           <p>dadada</p>
+        </Main>
     </div>
   )
 }
