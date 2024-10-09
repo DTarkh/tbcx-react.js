@@ -1,27 +1,35 @@
-.input{
-    padding: 10px 5px;
-    border-radius: 10px;
-    border: 1px solid rgb(137, 137, 137);
-    margin-bottom: 10px;
-}
-div{
+.blog-container{
+    width: 60%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+}
+
+.btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  
+.btn:hover {
+    background: white;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+  }
+
+.img{
+    width: 20%;
+    border-radius: 20px;
     
 }
 
-.btn{
-    padding: 10px 5px;
-    border-radius: 10px;
-    border: 1px solid gray;
-    margin-bottom: 10px;
-    width: 90px;
-    background-color: rgb(152, 101, 199);
-}
-
-.btn:hover{
-    cursor: pointer;
-    background-color: rgb(104, 70, 179);
-    transition: background-color 0.3s ease-in-out;
+.body{
+    
+    padding-left: 20px;
 }

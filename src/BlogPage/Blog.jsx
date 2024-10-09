@@ -4,6 +4,15 @@ import BlogItem from "./BlogItem";
 import './Blog.css'
 
 const Contact = () => {
+
+  const data = [
+    { title: 'dawdwa',
+      description: 'efefe'
+    },
+    {},
+    
+  ]
+
   return (
     <div>
       <Navbar />
