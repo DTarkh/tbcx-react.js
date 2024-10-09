@@ -1,21 +1,21 @@
 import React from "react";
 import "./Profile.css";
 
-const ProfileItem = () => {
+const ProfileItem = ({name, surname, email, img}) => {
   return (
     <div className="form-container">
       <img
-        src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src={img}
         alt="Form Header"
         className="form-image"
       />
       <form>
         <div>
-        <input type="text" placeholder="Jhane" className="input-field" />
-        <input type="text" placeholder="Doe" className="input-field" />
+        <input type="text" placeholder={name} className="input-field" />
+        <input type="text" placeholder={surname}className="input-field" />
         <input
           type="email"
-          placeholder="jhanedoe@tbcx.com"
+          placeholder={email}
           className="input-field"
         />
 
