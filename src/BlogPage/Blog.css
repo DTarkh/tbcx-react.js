@@ -1,9 +1,11 @@
 .blog-container{
     width: 60%;
+    height: 20vh;
     background-color: antiquewhite;
     border-radius: 20px;
     padding: 20px;
     display: flex;
+;
 }
 
 .btn {
@@ -24,12 +26,15 @@
   }
 
 .img{
-    width: 20%;
+    width: 15%;
     border-radius: 20px;
+    object-fit: cover;
     
 }
 
 .body{
-    
+    height: 20vh;
     padding-left: 20px;
+    
+    
 }
