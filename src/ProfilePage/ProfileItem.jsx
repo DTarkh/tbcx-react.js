@@ -10,6 +10,7 @@ const ProfileItem = () => {
         className="form-image"
       />
       <form>
+        <div>
         <input type="text" placeholder="Jhane" className="input-field" />
         <input type="text" placeholder="Doe" className="input-field" />
         <input
@@ -17,6 +18,8 @@ const ProfileItem = () => {
           placeholder="jhanedoe@tbcx.com"
           className="input-field"
         />
+
+        </div>
         <button type="submit" className="submit-button">
           Submit
         </button>

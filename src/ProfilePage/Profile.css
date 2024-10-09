@@ -2,22 +2,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
   }
   
   .form-image {
-    width: 100%;
-    max-width: 300px; /* Adjust based on your needs */
+    width: 40%;
     border-radius: 8px;
     margin-bottom: 20px;
   }
   
   .input-field {
     width: 100%;
-    max-width: 300px; /* Adjust based on your needs */
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -32,8 +31,10 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    
   }
   
   .submit-button:hover {
-    background-color: #45a049;
+    background: white;
+    color: #4CAF50;
   }
