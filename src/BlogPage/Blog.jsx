@@ -1,6 +1,6 @@
 import Navbar from "../Navigation/Navbar";
 import { Main } from "../Main/Main";
-import './Contact.css'
+import './Blog.css'
 
 const Contact = () => {
   return (
